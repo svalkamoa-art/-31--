@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мой Магазин Одежды</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Шапка -->
+  <header class="header">
+    <div class="container header__inner">
+      <h1 class="logo">STYLE.SHOP</h1>
+      <div class="header__actions">
+        <button id="login-btn" class="btn btn--ghost" style="width: auto; padding: 8px 16px; margin: 0;">Войти</button>
+        <button id="cart-btn" class="cart-btn">
+          🛒 Корзина <span id="cart-count">0</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Фильтр категорий -->
+  <section class="filters container">
+    <button class="filter-btn active" data-category="all">Все</button>
+    <button class="filter-btn" data-category="men">Мужское</button>
+    <button class="filter-btn" data-category="women">Женское</button>
+    <button class="filter-btn" data-category="accessories">Аксессуары</button>
+  </section>
+
+  <!-- Сетка товаров -->
+  <main class="container">
+    <div id="products" class="products"></div>
+  </main>
+
+  <!-- Модальное окно корзины -->
+  <div id="cart-modal" class="modal hidden">
+    <div class="modal__content">
+      <h2>Корзина</h2>
+      <ul id="cart-items" class="cart-list"></ul>
+      <p class="cart-total">Итого: <span id="cart-total">0</span> ₽</p>
+      <button id="checkout-btn" class="btn btn--primary">Оформить заказ</button>
+      <button id="close-cart" class="btn btn--ghost">Закрыть</button>
+    </div>
+  </div>
+
+  <!-- Модальное окно входа -->
+  <div id="login-modal" class="modal hidden">
+    <div class="modal__content">
+      <h2>Вход в аккаунт</h2>
+      <input type="text" id="username" placeholder="Ваше имя" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 8px;">
+      <input type="password" id="password" placeholder="Пароль (любой)" style="width: 100%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 8px;">
+      <button id="do-login" class="btn btn--primary">Войти</button>
+      <button id="close-login" class="btn btn--ghost">Отмена</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
