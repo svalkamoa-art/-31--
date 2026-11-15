@@ -1,10 +1,10 @@
 // ==== Данные товаров (с реальными картинками из интернета) ====
 const products = [
-  { id: 1, title: 'Футболка Oversize', price: 1990, category: 'men',   img: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60' },
-  { id: 2, title: 'Джинсы Slim Fit',   price: 3490, category: 'men',   img: 'https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60' },
-  { id: 3, title: 'Куртка Bomber',     price: 5990, category: 'women', img: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60' },
-  { id: 4, title: 'Худи Basic',        price: 2790, category: 'women', img: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60' },
-  { id: 5, title: 'Кепка Classic',     price: 990,  category: 'accessories', img: 'https://images.unsplash.com/photo-1588850561407-ed78c282e89b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60' },
+  { id: 1, title: 'Футболка Oversize', price: 1990, category: 'men',   img: 'https://avatars.mds.yandex.net/i?id=3532a8799ca72d5b6907ee05430bc87b973626c5-5222263-images-thumbs&n=13' },
+  { id: 2, title: 'Джинсы Slim Fit',   price: 3490, category: 'men',   img: 'https://avatars.mds.yandex.net/i?id=afeab163d0319f50285999355f6a9a4eeec2d4da-4299919-images-thumbs&n=13' },
+  { id: 3, title: 'Куртка Bomber',     price: 5990, category: 'women', img: 'https://avatars.mds.yandex.net/i?id=49cb883230890d5a09ecfb40099cc8dd2c3bc0f9-5258229-images-thumbs&n=13' },
+  { id: 4, title: 'Худи Basic',        price: 2790, category: 'women', img: 'https://avatars.mds.yandex.net/i?id=630f9374f66ae19fd3d1b5115e020f199db02404-9097903-images-thumbs&n=13' },
+  { id: 5, title: 'Кепка Classic',     price: 990,  category: 'accessories', img: 'https://avatars.mds.yandex.net/i?id=7e6d22cb3161282a48d16c56964c22903951a595-10640350-images-thumbs&n=13' },
 ];
 
 let cart = []; 
